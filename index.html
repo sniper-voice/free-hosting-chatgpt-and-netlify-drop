@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="ChatGPTとNetlify Dropを使って、専門知識がなくても自分のホームページを作って公開する方法を、シナリオライター向けに紹介します。">
+<meta name="theme-color" content="#f8f5ef">
+<title>ChatGPTとNetlify Dropによる自前ホームページ構築のすすめ</title>
+<meta property="og:type" content="article">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:site_name" content="ChatGPTとNetlify Dropによる自前ホームページ構築のすすめ">
+<meta property="og:title" content="ChatGPTとNetlify Dropによる自前ホームページ構築のすすめ">
+<meta property="og:description" content="専門知識がなくても大丈夫。ChatGPTとNetlify Dropで、自分のホームページを作って公開する方法を紹介します。">
+<meta property="og:url" content="https://YOUR-SITE-NAME.netlify.app/">
+<meta property="og:image" content="https://YOUR-SITE-NAME.netlify.app/og-image.png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="ChatGPTとNetlify Dropによる自前ホームページ構築のすすめ">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ChatGPTとNetlify Dropによる自前ホームページ構築のすすめ">
+<meta name="twitter:description" content="専門知識がなくても大丈夫。ChatGPTとNetlify Dropで、自分のホームページを作って公開する方法を紹介します。">
+<meta name="twitter:image" content="https://YOUR-SITE-NAME.netlify.app/og-image.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<section class="masthead"><p class="eyebrow">はじめてのホームページづくり</p><h1>ChatGPTとNetlify Dropによる<br><span>自前ホームページ構築のすすめ</span></h1><p class="deck">作品を置く場所を、自分の手でつくってみよう。</p><div class="byline"><span>スナイパー</span><span class="dot">·</span><time datetime="2025-11-03">2025年11月3日</time><span class="readtime">読みもの</span></div><div class="hero-decoration" aria-hidden="true"><span>✦</span><span>✿</span><span>✧</span></div></section>
+<article class="article"><h2>はじめに</h2>
+<p><a href="https://www.amebaownd.com/" target="_blank" rel="noopener noreferrer">Ameba Ownd</a>が、昨今世間を騒がせているAIによるセキュリティー騒ぎの余波で<a href="https://blog.amebaownd.com/posts/59351287" target="_blank" rel="noopener noreferrer">サービス終了</a>してしまうようです。Ameba Owndは、HTMLなどの専門的な知識がなくても、自分のオリジナルデザインで作品を公開できる場を与えてくれるすばらしいサービスだっただけに残念です。わたしの好きなシナリオライターにもAmeba Owndで自分の作品を公開している人が何人かいて、突然の発表に途方に暮れているようでした。</p>
+<p>HTMLの知識がない人でも自前サイトを構築する手段として、WordPressという、はるか古より存在するツールがあります。とても広く普及しており、依然として人気のあるツールです。しかし、これもあまりおすすめできないのです。WordPressを使って自分のサイトをカスタマイズする際には、さまざまなプラグインをインストールして運用することになると思います。実はこれが問題です。WordPressにはさまざまなプラグインが提供されていて簡単に導入できますが、その品質は玉石混淆。WordPressの脆弱なプラグインは、しばしば悪意あるハッカーによる攻撃の的になります。それを避けるためには、危険の少ないプラグインを見極め、新に発見される脆弱性にも目を光らせた上で、バージョンの更新を徹底する必要があります。一言で言えば、難易度が高いのです。ですから、個人的にはおすすめしません。</p>
+<p>前置きが長くなりましたが、この記事では、これらの手段の変わりに、専門知識も必要なく、自由度が高く自分の表現ができ、また安全に運用できるおすすめのやりかたを紹介します。あ、もちろんクレジットカード等登録しなくても無料ではじめられます。</p>
+<aside class="callout"><span class="callout-mark" aria-hidden="true">✳</span><div><p>ちなみに、この記事自体も、これから紹介するやりかたで書かれ、公開されています。</p></div></aside>
+<h2>使うもの</h2>
+<p>わたしのおすすめする方法では、2つのサービスを使います。</p>
+<ul>
+<li>ChatGPT</li>
+<li>Netlify Drop</li>
+</ul>
+<p>ChatGPTについてはおそらくご存知だと思いますが、Netlify Dropは初耳かもしれませんね。ですが、とても便利で簡単に使えるサービスなので、ご安心を。</p>
+<p>わたしのおすすめするやりかたは、専門的な言いかたをすると静的サイトホスティングと呼ばれるやりかたで、ある意味もっとも古来からある由緒正しい方法です。つまり、HTMLを書いて、サーバーにアップロードする。要はこれだけです。</p>
+<aside class="callout"><span class="callout-mark" aria-hidden="true">✳</span><div><p>なお、本記事はパソコンでの作業を前提とします。スマホやタブレットのみで静的サイトを構築することも技術的に可能とは思いますが、本記事の範囲外です。</p></div></aside>
+<p>違うのは、ChatGPTとNetlify Dropを使うことによって、その工程が極限まで簡単になり、専門知識がなくても実行できるということです。では具体的な手順に移りましょう。</p>
+<h2>手順</h2>
+<ol>
+<li><a href="https://chatgpt.com/ja-JP/" target="_blank" rel="noopener noreferrer">ChatGPT</a>利用登録</li>
+<li><a href="https://chatgpt.com/ja-JP/download/" target="_blank" rel="noopener noreferrer">ChatGPTデスクトップ</a>のダウンロード</li>
+<li>ChatGPTデスクトップにサイトを制作させる</li>
+<li><a href="https://app.netlify.com/drop" target="_blank" rel="noopener noreferrer">Netlify Drop</a>利用登録</li>
+<li>Netlify Dropにドラッグアンドドロップ</li>
+</ol>
+<p>この5ステップで公開できます。われわれはChagGPTにHTMLを書かせるつもりなので、なにはともあれChatGPTの利用登録が必要です。そして次に、ChatGPTのデスクトップアプリをダウンロードします。ChatGPTにデスクトップアプリがあるのは、もしかするとあまり知られていないかもしれません。実は、デスクトップアプリを使うことで、AIが真のパワーを発揮できるのです。具体的には、ChatGPTが自分の代わりにパソコンを操作して、いろいろなことをやってくれるようになります。今回は、HTML一式をChatGPTに書かせて、フォルダーに保存させます。ですので、インストール後の手順に従って、ローカルファイルへのアクセスを許可してください。</p>
+<figure><img src="./local-access-permission.png" alt="ローカルファイルへのアクセスを許可" loading="lazy"><figcaption>ローカルファイルへのアクセスを許可</figcaption></figure>
+<p>また、ChatGPTにパソコンを操作させるときには、「Work」タブを選択しておく必要があります。</p>
+<figure><img src="./chatgpt-work-tab.png" alt="Workタブを選択" loading="lazy"><figcaption>Workタブを選択</figcaption></figure>
+<p>これで準備ができたので、さっそくサイト制作です。といっても、難しいことはありません。ChatGPTにHTMLを書いてとお願いするだけです。制作したHTMLは、あとでNetlify Dropにアップロードする予定なので、そのことを伝えておくとスムーズでしょう。自分の制作したいサイトのイメージや雰囲気があるなら、そのサイトをChatGPTに見せたり、スクリーショットを与えれば、似た雰囲気のデザインにしてくれます。</p>
+<figure><img src="./developing-stagic-site.png" alt="ChatGPTにHTMLを書かせている様子" loading="lazy"><figcaption>ChatGPTにHTMLを書かせている様子</figcaption></figure>
+<p>さて、これでHTMLができたので、次はNetlify Dropの利用登録をします。Netlify Dropは、自分のHTMLをインターネット上に公開するためのサービスです。基本無料で使えます。その最大の特徴は、アップロードと公開が極限まで簡単にできることです。Netlify Dropの利用登録が完了したら、もう公開は目の前です。</p>
+<figure><img src="./netlify-drop.png" alt="Netlify Dropのトップページ" loading="lazy"><figcaption>Netlify Dropのトップページ</figcaption></figure>
+<p>手順は、この画面に、HTMLが格納されたフォルダをドラッグ&amp;ドロップするだけ。</p>
+<figure><img src="./netlify-drop-published.png" alt="Netlify Dropでの公開は簡単" loading="lazy"><figcaption>Netlify Dropでの公開は簡単</figcaption></figure>
+<p>数十秒後には、あなたのホームページは世界に発信されます。ね、簡単でしょう?残念ながら、Netlify Drop自体は日本語表示には対応していません 。</p>
+<aside class="callout"><span class="callout-mark" aria-hidden="true">✳</span><div><p>あなたのホームページを日本語で公開できないということではなく、Netlify Dropでホームページを管理するときに、英語の説明を読まなければいけないということです。</p></div></aside>
+<p>しかし、ここでもChatGPTが役に立ちます。Netlify Dropの操作でわからないことがあれば、ChatGPTに質問しましょう。あなたのかわりにネットを検索して、丁寧にやりかたを教えてくれます。</p>
+<p>以上、ChatGPTとNetlify Dropを使って、ホームページを制作し、インターネット上に公開する方法を説明しました。さっそくあなたの制作物を世界に公開してみましょう。</p>
+<h2>サンプル</h2>
+<p>前述したように、この記事自体がChatGPTとNetlify Dropで制作されています。同様の方法で制作したサンプルページを参考に置いておきます。</p>
+<ul>
+<li><a href="https://nimble-bienenstitch-62503b.netlify.app/" target="_blank" rel="noopener noreferrer">夜ふかし脚本室｜シナリオ作品集</a></li>
+<li><a href="https://taupe-elf-7bca0b.netlify.app" target="_blank" rel="noopener noreferrer">書いたページを、そっと公開。｜静的サイトのすすめ</a></li>
+</ul>
+<h2>Q&amp;A</h2>
+<h3>無料なの?</h3>
+<p>ChatGPTはある程度まで無料です。無料枠ではあまりたくさんの更新できないかもしれません(この記事の範囲では無料でまかなえました)。無料枠を越えたら、1400円/月から使えます。</p>
+<p>Netlify Dropは月300クレジットまで無料です。1回の公開操作に15クレジットかかります。無料枠を越える場合、$9/月のPersonalプランが必要です。</p>
+<ul>
+<li><a href="https://chatgpt.com/ja-JP/pricing/" target="_blank" rel="noopener noreferrer">プランと料金 | ChatGPT</a></li>
+<li><a href="https://www.netlify.com/pricing/" target="_blank" rel="noopener noreferrer">Pricing and Plans | Netlify</a></li>
+</ul>
+<h3>ChatGPTを使ったら自分のコンテンツが学習されちゃうのでは?</h3>
+<p>設定で学習をオフにできます。デフォルトでは学習ONになっているので、学習されたくない方はOFFにしてください。</p>
+<figure><img src="./chat-gpt-setting.png" alt="ChatGPTの学習OFF設定" loading="lazy"><figcaption>ChatGPTの学習OFF設定</figcaption></figure>
+<h3>https://ABC-XYZ.netlify.app みたいなURLになっちゃうの?</h3>
+<p>無料で使っている分には、この形式のURLでホストされますが、Netlify Drop上から自分の独自ドメインを購入することもできますし、すでに自分のドメインを持っている場合は、それをNetlify Dropに向けて設定することもできます。</p>
+<h3>既存サイトからコンテンツを移行したい</h3>
+<p>基本的に、ChatGPTに自分のコンテンツを渡して、「移行して」とか、「このコンテンツを元にサイトを制作して」と一言言えば、移行してくれるはずです。Ameba Owndも近日中にエクスポート機能を公開するようなので、エクスポートしたデータをそのままChatGPTに渡せば、データ移行してくれるでしょう。</p>
+<h3>Netlify Dropがサ終したらどうするの?</h3>
+<p>これがこの方法の最大の利点で、仮にNetlify Dropがサ終したとしても、HTMLはあなたの手元にあるので、他のホスティングサービスにそのままアップロードすればいいだけです。そのようなサービスは無数にあります。独自ドメインを取得した場合も、ドメインは他の業者に移行できます。</p>
+<hr>
+<p>2025.11.3 スナイパー &lt;sniper@tai2.net&gt;</p></article>
+</main>
+</body></html>
