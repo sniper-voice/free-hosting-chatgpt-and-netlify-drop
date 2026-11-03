@@ -71,8 +71,8 @@ ChatGPTについてはおそらくご存知だと思いますが、Netlify Drop�
 
 前述したように、この記事自体がChatGPTとNetlify Dropで制作されています。同様の方法で制作したサンプルページを参考に置いておきます。
 
-* [夜ふかし脚本室｜シナリオ作品集](https://nimble-bienenstitch-62503b.netlify.app/)
-* [書いたページを、そっと公開。｜静的サイトのすすめ](https://taupe-elf-7bca0b.netlify.app)
+* [書いたページを、そっと公開。｜静的サイトのすすめ](https://nimble-bienenstitch-62503b.netlify.app/)
+* [夜ふかし脚本室｜シナリオ作品集](https://taupe-elf-7bca0b.netlify.app)
 
 ## Q&A
 
